@@ -1,0 +1,33 @@
+img {
+    float: left;
+    width: 217px;
+    height: 380px;
+    padding-top: 25px;
+    padding-right: 50px;
+}
+
+table {
+    max-width: 90%;
+    margin-left: 2%;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    text-align: justify;
+    font-size: 1.07em;
+    line-height: 1.37em;
+}
+
+.fel {                                      /* StoneBal(KB) */
+    float: left;
+}
+
+#resz {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 1.5em;
+}

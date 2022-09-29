@@ -1,0 +1,31 @@
+img {
+    float: left;
+    width: 228px;
+    height: 400px;
+    padding: 25px 10px 50px;
+    margin-left: 15px;
+
+}
+
+table, th, td {
+    background-color: rgba(185, 245, 245, 0.733);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+th {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}                                       /* StoneBal(KB) */
+
+th, td {
+    border: 1px solid black;
+}
+
+b {
+    font-weight: bold;
+    text-transform: capitalize;
+}

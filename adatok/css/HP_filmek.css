@@ -1,0 +1,52 @@
+h2 {
+    padding-top: 40px;
+
+}
+
+sub {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+img {
+    float: left;
+    width: 285px;
+    height: 500px;
+    padding-top: 25px;
+    padding-right: 50px;
+    margin-left: 50px;
+}
+
+table, th, td {
+    background-color: rgba(185, 245, 245, 0.733);
+    color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+th {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+b {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+figure {                                        /* StoneBal(KB) */
+    float: left;
+}
+
+#resz {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 1.5em;
+}

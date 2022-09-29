@@ -1,0 +1,27 @@
+h1 {
+    padding-top: 50px;
+}
+
+#lista {
+    padding-left: 70px;
+}
+
+li {
+    color: rgba(185, 245, 245);
+    list-style-type: disc;
+}
+
+blockquote {
+    font-family: initial;
+    padding: 0px 10px 10px 10px;
+    background-color: rgba(185, 245, 245, 0.733);
+    border-radius: 10px;                                        /* StoneBal(KB) */
+    margin-left: 50px;
+    max-width: 950px;
+    margin-top: 10px;
+    
+}
+
+em {
+    font-style: italic;
+}
