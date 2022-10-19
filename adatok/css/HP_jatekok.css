@@ -1,10 +1,16 @@
 img {
-    float: left;
-    width: 228px;
-    height: 400px;
-    padding: 25px 10px 50px;
-    margin-left: 15px;
+    width: 285px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
 
+table {
+    margin: auto;
+}
+
+#utolso {
+    margin-bottom: 1.5em;
 }
 
 table, th, td {
@@ -28,4 +34,16 @@ th, td {
 b {
     font-weight: bold;
     text-transform: capitalize;
+}
+
+@media (min-width: 1200px) {
+    img {
+        float: left;
+        padding: 25px 10px 50px;
+        margin-left: 1em;
+    }
+
+    table {
+        margin-left: 1em;
+    }
 }

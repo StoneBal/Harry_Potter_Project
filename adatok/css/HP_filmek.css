@@ -1,19 +1,18 @@
-h2 {
-    padding-top: 40px;
-
-}
+/* === Egyéni formázás === */
 
 sub {
     font: 1rem 'Fira Sans', sans-serif;
 }
 
-img {
-    float: left;
-    width: 285px;
-    height: 500px;
-    padding-top: 25px;
-    padding-right: 50px;
-    margin-left: 50px;
+b {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* === Táblázat === */
+
+table {
+    margin: 1.5em auto;
 }
 
 table, th, td {
@@ -35,18 +34,29 @@ th, td {
     border: 1px solid black;
 }
 
-b {
-    font-weight: bold;
-    text-transform: capitalize;
+/* === Kép === */
+
+img {
+    width: 285px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
 }
 
-figure {                                        /* StoneBal(KB) */
-    float: left;
-}
+@media (min-width: 1200px) {
+    figure {
+        float: left;
+    }
 
-#resz {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-    font-size: 1.5em;
+    img {
+        padding-top: 1.56em;
+        padding-right: 1.56em;
+        margin-left: 5em;
+    }
+
+    h2, p, figure {
+        max-width: calc(100vw - 250px);
+        margin-left: 100px;
+    }
+    
 }

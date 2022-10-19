@@ -1,9 +1,9 @@
 h1 {
-    padding-top: 50px;
+    padding-top: 1.5em;
 }
 
 #lista {
-    padding-left: 70px;
+    padding-left: 4.375em;
 }
 
 li {
@@ -15,10 +15,10 @@ blockquote {
     font-family: initial;
     padding: 0px 10px 10px 10px;
     background-color: rgba(185, 245, 245, 0.733);
-    border-radius: 10px;                                        /* StoneBal(KB) */
-    margin-left: 50px;
+    border-radius: 0.625em;                                        /* StoneBal(KB) */
+    margin: 0 3.15em;
     max-width: 950px;
-    margin-top: 10px;
+    margin-top: 0.625em;
     
 }
 
